@@ -2,7 +2,7 @@
 # Maintianer: Aaron Bassett <abassett@qnx.com>
 pkgname=icon-naming-utils
 pkgver=0.8.90
-pkgrel=${pkgrel:-0}
+pkgrel=4
 pkgdesc="Maps the new names of icons for Tango to the legacy names used by the GNOME and KDE desktops."
 url="http://tango.freedesktop.org/"
 arch="noarch"
@@ -29,7 +29,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 7b2e3aa4c7a4857d3c190fb12d69d665bf63596a84735adddf7e67bc5e6b493eccd0b914bc32776934f04720c7071d6de35d55452ffd4966d7dbd8360907f727  icon-naming-utils-0.8.90.tar.bz2
 "
